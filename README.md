@@ -16,7 +16,7 @@ each entry on the right hand side of the arrow represents an assertion point in 
     * [nested conditionals](#nested-conditionals)
 * sequential conditionals
     * [else if -> nested](#else-if-nested)
-* [iteration](#iteration)
+* iteration
     * [fixed length](#fixed-length)
     * [repeating until](#repeating-until)
 * conditionals & iteration
@@ -84,7 +84,7 @@ the code:
   const a = ;
   const b = ;
   const c = ;
-  const result = null;              const path = [];
+  let result = null;                const path = [];
   
   const condition_1 = b && a;       path.push(1);
   const condition_2 = a || c;       path.push(2);
@@ -127,7 +127,7 @@ the code:
                      
   const a = ;
   const b = ;
-  const result = null;              const path = [];
+  let result = null;                const path = [];
   
   if (a) {
     if (b) {
@@ -172,10 +172,10 @@ the code:
 {
   const expected_path = ;            
                      
-  const a = ;
-  const b = ;
-  const c = ;
-  const result = null;              const path = [];
+  let a = ;
+  let b = 
+  let c = ;
+  let result = null;                const path = [];
   
 
   if (b && a) {
