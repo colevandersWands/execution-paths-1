@@ -10,6 +10,7 @@ each entry on the right hand side of the arrow represents an assertion point in 
 
 ### The Challenges
 * no control flow
+    * [block scope 'var'](#block-scope-var)
     * [dots vs. brackets](#dots-vs-brackets)
 * single conditionals
     * [if, else if, else](#if-else-if-else)  
@@ -29,8 +30,6 @@ each entry on the right hand side of the arrow represents an assertion point in 
 
 
 ## No Control Flow
-
----
 
 ### Block Scope 'var'
 
