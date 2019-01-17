@@ -30,6 +30,48 @@ each entry on the right hand side of the arrow represents an assertion point in 
 
 ## No Control Flow
 
+---
+
+### Block Scope 'var'
+
+[on pytut](https://goo.gl/rJaPQo)  
+[hoisting](https://github.com/elewa-academy/hoisting) 
+[hoisting & blocks](https://github.com/elewa-academy/hoisting-and-blocks)
+[let vs var](https://github.com/elewa-academy/block-scope-let-vs-var)  
+
+
+the code:
+(refresh the page each time before running this exercise)  
+```js
+{
+  const expected_path = ;              
+                       
+  let b = ;  
+  let c = ;                       const path = [];
+
+  {
+    var a = b;                    path.push(1);
+    {
+       a = c;                     path.push(2);
+    }
+    a = a;                        path.push(3);
+  }
+
+  const assert_act = JSON.stringify(path);
+  const assert_exp = JSON.stringify(expected_path);
+  console.assert(assert_act === assert_exp, path);
+}
+```
+the values:
+```js
+b:2, c:3         --> [ ? ]
+b:0, c:false     --> [ ? ]
+b:false, c:9     --> [ ? ]
+```
+your notes:  
+
+---
+
 ### Dots vs Brackets
 
 [on pytut](https://goo.gl/2G6nuu)  
