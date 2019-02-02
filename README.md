@@ -5,7 +5,8 @@ learning objectives
 you can complete these exercises directly from your fork by inspecting this page and copy-pasting the snippets into devtools console. fill in your solutions by editing this page, writing in the actual values for each challenge
 
 for each piece of code you will be given several inputs to study, ie.
-> a:3, b:4    -->   1:?, 2:?, 3:?
+> a:3, b:4    -->   1:?, 2:?, 3:?  
+
 each entry on the right hand side of the arrow represents an assertion point in the snippet.  the exercise here is to correctly fill in each of the blanks.
 
 ### The Challenges
